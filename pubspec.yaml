@@ -1,0 +1,63 @@
+name: pruebas
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter: ^8.11.0
+  curved_navigation_bar: ^0.3.7 
+  cupertino_icons: ^1.0.0
+  rxdart: 
+  http:
+  shared_preferences:
+  flutter_swiper : 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/
+   - assets/Exercises/Calentamiento/
+   - assets/Exercises/Peso/
+   - assets/Exercises/Colchoneta/
+  #   - images/a_dot_ham.jpeg
+
+  
+  fonts:
+    - family: cinzel
+      fonts:
+        - asset: fonts/cinzel.ttf
+    - family: black
+      fonts:
+        - asset: fonts/black.ttf
+    - family: lilita
+      fonts:
+        - asset: fonts/lilita.ttf
+    - family: monoton
+      fonts:
+        - asset: fonts/monoton.ttf
+    - family: patua
+      fonts:
+        - asset: fonts/patua.ttf
+    - family: paytone
+      fonts:
+        - asset: fonts/paytone.ttf
+
