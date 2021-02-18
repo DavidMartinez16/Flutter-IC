@@ -1,0 +1,97 @@
+class CalentamientoInfo {
+  final int index;
+  final String name;
+  final String description1;
+  final String description2;
+  final String info1;
+  final String info2;
+  final String img1;
+  final String img2;
+
+  CalentamientoInfo(
+    this.index, {
+    this.name,
+    this.description1,
+    this.description2,
+    this.info1,
+    this.info2,
+    this.img1,
+    this.img2,
+    
+  });
+}
+
+List<CalentamientoInfo> exercises = [
+  CalentamientoInfo(1,
+      name: 'Lateralización de Cuello',
+      description1: 'Alinea tu cuello con tus hombres y relájate',
+      description2: 'Acercar la oreja hacia el hombro derecho, luego volver a la línea media y ve al lado contrario.',
+      info1: 'Hacer 1 serie de 6 veces, alternando ambos lados.',
+      info2: 'Realizar el ejercicio 1 vez al día.',
+      img1: 'assets/Exercises/Calentamiento/cuello1.png',
+      img2: 'assets/Exercises/Calentamiento/cuello2.png',
+      ),
+  CalentamientoInfo(2,
+      name: 'Flexión de Hombros',
+      description1: 'Cruzar las manos sobre la cabeza.',
+      description2: 'Extender los codos llevando las palmas hacia el techo sin separar las manos.',
+      info1: 'Hacer 1 serie de 5 veces',
+      info2: 'Realizar el ejercicio 1 vez al día.',
+      img1: 'assets/Exercises/Calentamiento/hombro1.png',
+      img2: 'assets/Exercises/Calentamiento/hombro2.png',
+      ),
+  CalentamientoInfo(3,
+      name: 'Estiramiento de Pectorales',
+      description1: 'Parate de forma recta con tus hombros y cuello relajado.',
+      description2: 'Apoya las manos en la nuca y con los dedos entrelazados abrir y cerrar los codos.',
+      info1: 'Hacer 1 serie de 5 veces.',
+      info2: 'Realizar el ejercicio 1 vez al día.',
+      img1: 'assets/Exercises/Calentamiento/pectorales1.png',
+      img2: 'assets/Exercises/Calentamiento/pectorales2.png',
+      ),
+  CalentamientoInfo(4,
+      name: 'Lateralización de Tronco',
+      description1: 'Con el tronco, hombro y cuello alineado.',
+      description2: 'Inclinar el tronco hacia un lado congiendo aire y luego vuelve hacia la posición inicial echando aire. Repetir hacia el otro lado.',
+      info1: 'Hacer 1 serie de 5 veces a cada lados.',
+      info2: 'Realizar el ejercicio 1 vez al día.',
+      img1: 'assets/Exercises/Calentamiento/tronco1.png',
+      img2: 'assets/Exercises/Calentamiento/tronco2.png',
+      ),
+  CalentamientoInfo(5,
+      name: 'Estiramiento',
+      description1: 'Con una mano apoyada sobre una superficie estable, cruzar la pierna del lado contrario al apoyo.',
+      description2: 'Realizar una separación de la pierna girando el pie hacia el suelo.',
+      info1: 'Hacer 1 serie de 5 veces con cada pierna.',
+      info2: 'Realizar el ejercicio 1 vez al día.',
+      img1: 'assets/Exercises/Calentamiento/estiramiento1.png',
+      img2: 'assets/Exercises/Calentamiento/estiramiento2.png',
+      ),
+  CalentamientoInfo(6,
+      name: 'Estiramiento de Separadores',
+      description1: 'Apoyate en una superficie estable.',
+      description2: 'Flexionar la pierna del lado apoyado y, con la mano contraria, llevar hacia afuera, luego retroceder a la posición inicial.',
+      info1: 'Hacer 1 serie de 5 veces con cada pierna',
+      info2: 'Realizar antes y después del ejercicio aeróbico.',
+      img1: 'assets/Exercises/Calentamiento/separadores1.png',
+      img2: 'assets/Exercises/Calentamiento/separadores2.png',
+      ),
+  CalentamientoInfo(7,
+      name: 'Sentadilla',
+      description1: 'De pie con las piernas separadas y alineadas con el ancho de la cadera.',
+      description2: 'Realizar una flexión y extensión de piernas como si te fueras a sentar y levantar de una silla.',
+      info1: 'Hacer 1 serie de 5 veces',
+      info2: 'Realizar el ejercicio 1 vez al día.',
+      img1: 'assets/Exercises/Calentamiento/sentadilla1.png',
+      img2: 'assets/Exercises/Calentamiento/sentadilla2.png',
+      ),
+  CalentamientoInfo(8,
+      name: 'Estiramiento Isquiotibiales',
+      description1: 'Apoya una pierna en el suelo y la otra sobre una superficie estable.',
+      description2: 'Flexionar el pie hasta sentir tensión en la parte posterior del muslo, también puedes acercar el cuerpo hacia la pierna.',
+      info1: 'Hacer 1 serie de 5 veces con cada pierna',
+      info2: 'Realizar antes y después del ejercicio aeróbico.',
+      img1: 'assets/Exercises/Calentamiento/liquio1.png',
+      img2: 'assets/Exercises/Calentamiento/liquio2.png',
+      ),
+];
